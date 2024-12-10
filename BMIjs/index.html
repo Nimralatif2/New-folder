@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THIS CALCULATOR ONLY GIVES YOUR BMI RATE</title>
+</head>
+<body>
+    <h1   id="bmi1" > BMI CALCULATOR </h1>
+<form onsubmit="BMIcal() ; return false" >
+<label for="wg"> weight (kg):</label>
+<input type="number" name="wg" placeholder="Enter your weight" id="w1" required>
+&nbsp;
+
+<label for="hg">height(m):</label>
+<input type="number" name="hg" placeholder="Enter your height" id="h1" required>
+&nbsp;
+
+<button type="submit" onclick="BMIcal">Click Here</button>
+</form>
+
+<script src="./index.js"></script>
+
+</body>
+</html>
